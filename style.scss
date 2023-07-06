@@ -142,6 +142,7 @@
             padding: 1rem;
             text-align: center;
             width: 200px;
+            height: 400px;
             background-color: #000000;
             border-radius: 10%;
             box-shadow: 1px 1px 10px #fff;
@@ -155,12 +156,22 @@
                 padding: 1rem;
             }
 
-            p {}
+            p {
+                margin-bottom: 1.8rem;
+            }
 
+            // Designing the small detail button
             .btn-detail {
                 color: #fff;
                 text-decoration: none;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
+                padding: 0.5rem;
+                background-color: gray;
+                transition: all ease-in-out 0.1s;
+
+                &:hover {
+                    background-color: rgb(82, 82, 82);
+                }
             }
         }
     }
